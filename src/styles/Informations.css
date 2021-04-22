@@ -1,0 +1,174 @@
+::placeholder {
+  font-size: 1rem;
+}
+
+.deaths-and-cases div{
+  background-color: #f7f7f7;
+  padding: 2.5rem 5rem;
+  border-radius: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin: 0 2rem 5rem 2rem;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+}
+
+.deaths-and-cases h1 {
+  font-size: 6rem;
+
+  margin: 0;
+}
+
+.deaths-and-cases h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.deaths-and-cases {
+  display: flex;
+  width: 70rem;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.deaths-and-cases .deaths {
+  color:#e44d4d;
+}
+
+.deaths-and-cases .cases {
+  color: #f58762;
+}
+
+.info-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.improvement {
+  background-color: #f7f7f7;
+  padding: 3rem 9rem;
+  border-radius: 2rem;
+
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  width: 70rem;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.improvement .status {
+  font-size: 4.6rem;
+}
+
+.improvement .rate h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0; 
+}
+
+.improvement .status-melhorando {
+  color: #84ee7b;
+}
+
+.improvement .status-piorando {
+  color: #e44d4d;
+}
+
+.improvement .status-sem-mudancas {
+  color: #f58762;
+}
+
+.cities {
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 1.6rem;
+  margin-right: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  color: #556193;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.05);
+}
+
+.submit-button {
+  outline: none;
+  border: none;
+  background-color: #f97594;
+  padding: 1.2rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.08);
+}
+
+.time h2 {
+  margin-bottom: 1.6rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1400px) {
+  .deaths-and-cases, .improvement {
+    width: 80vw;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .improvement .status h1{
+    font-size: 1rem;
+  }
+  .cities {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  }
+  .submit-button {
+    font-size: 1.2rem;
+  }
+  .deaths-and-cases {
+    width: 90vw;
+  }
+  .deaths-and-cases h2 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  .deaths-and-cases h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .deaths-and-cases div{
+    padding: 2rem 3rem;
+    margin: 0 1.4rem 3rem 1.4rem;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+  }
+  
+  .improvement {
+    padding: 2rem 4rem;
+    width: 90vw;
+  }
+  .improvement .status {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .improvement .rate h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .time h2 {
+    font-size: 1.6rem;
+  }
+}
