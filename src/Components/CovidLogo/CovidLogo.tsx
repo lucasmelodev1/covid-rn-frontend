@@ -8,6 +8,7 @@ export default class covidLogo extends Component {
       <div className="body">
         <img src={logo} alt="" className="mainLogo"/>
         <h1 className="title">Como está o coronavírus na minha cidade?</h1>
+        <h2 className="subtitle">Rio Grande do Norte</h2>
       </div>
     )
   }
