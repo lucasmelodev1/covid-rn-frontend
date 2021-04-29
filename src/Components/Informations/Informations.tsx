@@ -22,7 +22,7 @@ export default function Information() {
     }
 
     var data = ''
-    const response = axios.get(`${process.env.API_HOST}${details.city}`)
+    const response = axios.get(`https://covid-rn-api.herokuapp.com/api/cities/${details.city}`)
     response.then((data) => {
       setLoading(false)
       setMelhoria(data.data.improvementRate)
