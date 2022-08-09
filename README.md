@@ -6,3 +6,4 @@ Esse site foi feito com react e typescript no frontend e node.js com javascript 
 
 This website was made with react and typescript in frontend and node.js with javascript in backend, communicating with the UERN (Rio Grande do Norte State University) that return the data about the cases.
 
+![Demonstration](image.png)
